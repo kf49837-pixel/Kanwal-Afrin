@@ -1,0 +1,86 @@
+:root{
+    --card-bg-color:#ffffff;
+    --frame-border-color:#dcdcdc;
+    --header-bg-color:#efefef;
+    --font-sans:segoe ui, Roboto, "Helvetica Neue",  Arial, sans-serif;
+}
+body{
+    margin:20px;
+    background-color: rgb(190, 17, 89);
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-sans);
+    color: #270505;
+}
+.card{
+    width: 960px;
+    background-color: var(--card-bg-color);
+    border: 6px solid var(--frame-border-color);
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(179, 63, 63, 0.5), rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5);
+    overflow: hidden;
+}
+.header{
+    background-color: var(--header-bg-color);
+    padding: 14px 24px;
+    border-bottom: 1px solid var(#add) ;
+}
+.header h1{
+    margin: 0;
+    font-size: 24px ;
+    font-weight: 800;
+     color: #a12626;
+}
+.scale-wrap{
+    padding:12px;
+    background-color: #915f15;
+}
+.scale-wrap{
+    border: 1px solid #ccc;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+.row{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    font-size: 15px;
+    color: white;
+}
+.label{
+    font-weight: 600;
+}
+.neutral{
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+}
+/*colors*/
+.n14{background-color: #a12626;}
+.n13{background-color: #d6a126;}
+.n12{background-color: #8b8b62;}
+.n11{background-color: hsl(67, 49%, 71%);}
+.n10{background-color: #e74c4c;}
+.n9{background-color: #46d3d3;}
+.n8{background-color: rgb(57, 75, 92);}
+.n7{background-color: rgb(167, 129, 79); }
+.n6{background-color: rgb(68, 173, 133);}
+.n5{background-color: rgb(74, 43, 104);}
+.n4{background-color: rgb(66, 84, 116);}
+.n3{background-color: rgb(139, 96, 96);}
+.n2{background-color: rgb(85, 107, 47);}
+.n1{background-color: rgb(233, 150, 122);}
+.n0{background-color: crimson;}
+.footer{
+    height: 25px;
+    background-color: #efefef;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding-left: 12px;
+    font-size: 17px;
+    color: #b80f0fee;
+}
